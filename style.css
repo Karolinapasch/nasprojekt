@@ -2,7 +2,7 @@ body {
     color:rgb(49, 65, 98);
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-size: large;
+    font-weight: 900;
   }
 
 /* nav menu */
@@ -18,7 +18,12 @@ nav a:active {
 
 }
 /* /nav menu */
-
+header{
+  margin: 0 auto;
+ }
+.nadpis{
+  font-size: 50px
+}
 
 .container {
     width: 60vw;
