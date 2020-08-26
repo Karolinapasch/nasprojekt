@@ -45,7 +45,7 @@ nav a:active {
     color: #223c88;
   }
   .banner {
-    height: 10rem;
-    background: #798822 url('img/banner.jpg') center/cover no-repeat; 
+    height: 17rem;
+    background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpgs") ; 
   }
   
