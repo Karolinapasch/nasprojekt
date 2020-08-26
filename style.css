@@ -18,11 +18,14 @@ nav a:active {
 
 }
 /* /nav menu */
-header{
+header {
   margin: 0 auto;
  }
-.nadpis{
-  font-size: 98px
+.nadpis {
+  font-size: 98px;
+}
+.nadpis2 {
+  font-size: 60px;
 }
 
 .container {
