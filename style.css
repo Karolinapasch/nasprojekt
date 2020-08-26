@@ -22,7 +22,7 @@ header{
   margin: 0 auto;
  }
 .nadpis{
-  font-size: 46px
+  font-size: 70px
 }
 
 .container {
@@ -55,6 +55,6 @@ header{
   }
   .kontakty {
     color: white;
-    background ;
-   
+    background-color: grey;
+    text-align: center;
   }
