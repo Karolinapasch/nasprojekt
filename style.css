@@ -22,7 +22,7 @@ header{
   margin: 0 auto;
  }
 .nadpis{
-  font-size: 70px
+  font-size: 98px
 }
 
 .container {
@@ -38,19 +38,43 @@ header{
     left: 20vw;
     
   }
-  .green {
-    color: #29c529;
+  .S {
+    color: rgb(4, 58, 12);
+  }
+  .b {
+    color: rgb(3, 102, 20);
+  }
+  .í {
+    color: rgb(18, 148, 25);
+  }
+  .r {
+    color: rgb(41, 199, 9);
+  }
+  .e {
+    color: rgb(43, 180, 1);
+  }
+  .j {
+    color: rgb(0, 255, 64);
+  }
+  .s {
+    color: #f6fa14;
   }
   
-  .red {
-    color: #ff523d;
-  }
+  .n {
+    color: #002397;
   
-  .blue {
-    color: #223c88;
+  }
+  .á {
+    color:rgb(0, 108, 250);
+  }
+  .m {
+    color: rgb(3, 121, 115);
+  }
+  .i {
+    color: rgb(11, 239, 247);
   }
   .banner {
-    height: 17rem;
+    height: 25rem;
     background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpg") ; 
   }
   .kontakty {
