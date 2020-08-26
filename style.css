@@ -22,7 +22,7 @@ header{
   margin: 0 auto;
  }
 .nadpis{
-  font-size: 50px
+  font-size: 46px
 }
 
 .container {
@@ -53,4 +53,8 @@ header{
     height: 17rem;
     background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpgs") ; 
   }
-  
+  .kontakty {
+    color: white;
+    background ;
+   
+  }
