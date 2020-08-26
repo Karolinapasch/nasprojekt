@@ -86,10 +86,12 @@ header {
     text-decoration: none;
     color: black;
     background-color: rgb(4, 204, 34);
+ }
+ .uskutecneneakce {
+   font-size: 20px;
+   color: chocolate;
 
-    
-
-  }
+ }
   .kontakty {
     color: white;
     background-color: grey;
