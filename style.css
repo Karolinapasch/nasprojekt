@@ -8,13 +8,14 @@ body {
 /* nav menu */
 nav a {
   text-decoration: none;
-  color: rgb(0, 255, 0); 
+  color: rgb(0, 255, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
 }
 nav a:visited {
 color: rgb(24, 141, 24)
 }
 nav a:active {
-  color:greenyellow
+  color:rgb(56, 240, 32)
 
 }
 /* /nav menu */
@@ -25,7 +26,7 @@ header {
   font-size: 98px;
 }
 .nadpis2 {
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .container {
@@ -42,7 +43,7 @@ header {
     
   }
   .S {
-    color: rgb(4, 58, 12);
+    color: rgb(4, 204, 34);
   }
   .b {
     color: rgb(3, 102, 20);
@@ -80,10 +81,11 @@ header {
     height: 25rem;
     background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpg") ; 
   }
+  
   .oprojektu  {
     text-decoration: none;
     color: black;
-    background-color: rgb(172, 255, 6)
+    background-color: rgb(4, 204, 34)
     
 
   }
