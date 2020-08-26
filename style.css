@@ -77,6 +77,13 @@ header{
     height: 25rem;
     background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpg") ; 
   }
+  .oprojektu  {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(172, 255, 6)
+    
+
+  }
   .kontakty {
     color: white;
     background-color: grey;
