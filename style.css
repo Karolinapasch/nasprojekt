@@ -46,7 +46,7 @@ header {
     color: rgb(4, 204, 34);
   }
   .b {
-    color: rgb(3, 102, 20);
+    color: rgb(10, 223, 45);
   }
   .í {
     color: rgb(18, 148, 25);
@@ -96,4 +96,9 @@ header {
     color: white;
     background-color: grey;
     text-align: center;
+  }
+  .menu {
+    background-color: pink;
+    width: 100vw;
+    margin-left: -20vw;
   }
