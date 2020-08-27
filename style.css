@@ -97,6 +97,7 @@ header {
  .uskutecneneakce {
    font-size: 12px;
    color: rgb(0, 0, 0);
+   background-color: greenyellow;
 
  }
   .kontakty {
@@ -117,10 +118,9 @@ header {
 .akce {
   background-color: rgb(0, 197, 154);
 }
-.Hlasuj{
-  background-color: greenyellow;
-}
+
 .foto{
   width: 600px;
   height: 400px;
+  background-color: rgb(42, 194, 4);
 }
