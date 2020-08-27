@@ -1,125 +1,138 @@
 <html>
+
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 </head>
+
 <body>
-      <header>
-    <nav class="menu">
-      <a href="index.html">o projektu</a>
-      <a href="planakci.html">plan akci</a>
-      <a href="uskutecnene.html">uskutecnene akce</a>
-      <a href="#formular">Přihlaš se</a>
-      <a href="index.html#kontakty">Hlasuj</a>
-      <a href="index.html#kontakty">kontakty</a>
-      <table class="table">
-      </nav>
-    </header>
-        <thead>
-          <tr>
-            <th scope="col">Termín</th>
-            <th scope="col">Název</th>
-            <th scope="col">Místo</th>
-            </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">5.9.2020</th>
-            <td>čistíme potoky</td>
-            <td>habrovský potok </td>
-            
-          </tr>
-          <tr>
-            <th scope="row">20.9.2020</th>
-            <td>posbírej co nejvíce</td>
-            <td>v přírodě kolem Vás</td>
-            
-          </tr>
-          <tr>
-            <th scope="row">2.10.2020</th>
-            <td>škola pomáhá přírodě</td>
-            <td>v přírodě u Vaší školy</td>
-            
-          </tr>
-          <tr>
-            <th scope="row">13.10.2020</th>
-            <td>ukliď louku</td>
-            <td>Praha Stodůlky</td>
-            </tr>
+  <nav class="menu">
+    <a href="index.html">O projektu</a>
+    <a href="planakci.html">Plán akci</a>
+    <a href="uskutecnene.html">Uskutečněné akce</a>
+    <a href="#formular">Přihlaš se</a>
+    <a href="index.html#kontakty">Hlasuj</a>
+    <a href="index.html#kontakty">Kontakty</a>
+  </nav>
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Termín</th>
+          <th scope="col">Název</th>
+          <th scope="col">Místo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">5.9.2020</th>
+          <td>čistíme potoky</td>
+          <td>habrovský potok </td>
 
-            <tr>
-            <th scope="row">23.10.2020</th>
-            <td>ukliď louku</td>
-            <td>Praha Stodůlky</td>
-            </tr>
+        </tr>
+        <tr>
+          <th scope="row">20.9.2020</th>
+          <td>posbírej co nejvíce</td>
+          <td>v přírodě kolem Vás</td>
 
-             <tr>
-            <th scope="row">5.11.2020</th>
-            <td>posbírej co nejvíce</td>
-            <td>v přírodě kolem Vás</td>
-            </tr>
-           
-            <tr>
-            <th scope="row">17.11.2020</th>
-            <td>sbírání odpadků s dětmi</td>
-            <td>Praha Bohnice</td>
-            </tr>
+        </tr>
+        <tr>
+          <th scope="row">2.10.2020</th>
+          <td>škola pomáhá přírodě</td>
+          <td>v přírodě u Vaší školy</td>
 
-            <tr>
-            <th scope="row">29.11.2020</th>
-            <td>škola pomáhá přírodě</td>
-            <td>v přírodě u Vaší školy</td>
-            
-          </tr>
+        </tr>
+        <tr>
+          <th scope="row">13.10.2020</th>
+          <td>ukliď louku</td>
+          <td>Praha Stodůlky</td>
+        </tr>
 
-             <tr>
-            <th scope="row">3.12.2020</th>
-            <td>posbírej co nejvíce</td>
-            <td>v přírodě kolem Vás</td>
-            </tr>
+        <tr>
+          <th scope="row">23.10.2020</th>
+          <td>ukliď louku</td>
+          <td>Praha Stodůlky</td>
+        </tr>
 
-            
-            <th scope="row">18.10.2020</th>
-            <td>škola pomáhá přírodě</td>
-            <td>v přírodě u Vaší školy</td>
-            
-          </tr>
-            
+        <tr>
+          <th scope="row">5.11.2020</th>
+          <td>posbírej co nejvíce</td>
+          <td>v přírodě kolem Vás</td>
+        </tr>
+
+        <tr>
+          <th scope="row">17.11.2020</th>
+          <td>sbírání odpadků s dětmi</td>
+          <td>Praha Bohnice</td>
+        </tr>
+
+        <tr>
+          <th scope="row">29.11.2020</th>
+          <td>škola pomáhá přírodě</td>
+          <td>v přírodě u Vaší školy</td>
+
+        </tr>
+
+        <tr>
+          <th scope="row">3.12.2020</th>
+          <td>posbírej co nejvíce</td>
+          <td>v přírodě kolem Vás</td>
+        </tr>
 
 
-        </tbody>
-      </table>
-    
-  
-  <a name= "plan akce"/><br />
+        <th scope="row">18.10.2020</th>
+        <td>škola pomáhá přírodě</td>
+        <td>v přírodě u Vaší školy</td>
+
+        </tr>
 
 
 
+      </tbody>
+    </table>
 
-  
-  <h2>Přihlaš se</h2>
-  Přihlaš se na sbírací akci a sbírej s námi
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <small id="emailHelp" class="form-text text-muted"></small>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Heslo</label>
-      <input type="heslo" class="form-control" id="exampleInputPassword1">
-    </div>
-        <div class="form-group">
-      <label for="exampleInput sbirani odpadku s detmi 21.7">Nazev akce a datum konani</label>
-      <input type="nazev akce a datum konani" class="form-control" id="exampleInput nazev akce a datum konani">
-    </div>
-    <div class="form-group">
-      <label for="exampleInput 7">Pocet dobrovolniku</label>
-      <input type="nazev pocet dobrovolniku" class="form-control" id="exampleInput pocet dobrovolniku">
-    </div>
-    <button type="odeslat" class="btn btn-primary">odeslat</button>
-  </form>
-  
-    
+
+    <a name="plan akce" /><br />
+
+
+
+
+
+    <h2>Přihlaš se</h2>
+    Přihlaš se na sbírací akci a sbírej s námi
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Heslo</label>
+        <input type="heslo" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group">
+        <label for="exampleInput sbirani odpadku s detmi 21.7">Nazev akce a datum konani</label>
+        <input type="nazev akce a datum konani" class="form-control" id="exampleInput nazev akce a datum konani">
+      </div>
+      <div class="form-group">
+        <label for="exampleInput 7">Pocet dobrovolniku</label>
+        <input type="nazev pocet dobrovolniku" class="form-control" id="exampleInput pocet dobrovolniku">
+      </div>
+      <button type="odeslat" class="btn btn-primary">odeslat</button>
+    </form>
+  </div>
+
 
 
 </body>
