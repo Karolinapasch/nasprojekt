@@ -80,6 +80,11 @@ header {
   .banner {
     height: 25rem;
     background-image: url("https://homefortrees.com/wp-content/uploads/2019/03/les-1160x770.jpg") ; 
+  
+  }
+
+  .mtop {
+    padding-top: 32px;
   }
   
   .oprojektu  {
@@ -103,6 +108,7 @@ header {
     background-color: rgb(4, 204, 34);
     width: 100vw;
     margin-left: -20vw;
+    
   }
 
 .table {
