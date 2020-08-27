@@ -8,14 +8,14 @@ body {
 /* nav menu */
 nav a {
   text-decoration: none;
-  color: rgb(0, 255, 0);
+  color: rgb(3, 8, 4);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
 }
 nav a:visited {
-color: rgb(24, 141, 24)
+color: rgb(0, 0, 0)
 }
 nav a:active {
-  color:rgb(56, 240, 32)
+  color:rgb(9, 17, 8)
 
 }
 /* /nav menu */
@@ -86,6 +86,8 @@ header {
     text-decoration: none;
     color: black;
     background-color: rgb(4, 204, 34);
+    font-size: 15px;
+    block-size: 250px;
  }
  .uskutecneneakce {
    font-size: 20px;
@@ -98,7 +100,8 @@ header {
     text-align: center;
   }
   .menu {
-    background-color: pink;
+    background-color: rgb(4, 204, 34);
     width: 100vw;
     margin-left: -20vw;
   }
+
