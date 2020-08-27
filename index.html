@@ -3,7 +3,7 @@
 
 <head>
  
-  
+  <script src="js/script.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -76,11 +76,20 @@
   <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIG76lIQYHMG6aNIHiSUhBRKhljBFhZi9PZQ&usqp=CAU>
   <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4ICEcvFOSAQaiy6zIFrVmrEdKEqIdszzvcQ&usqp=CAU>
   <img src=https://www.uklidmecesko.cz/_cachr/e09459c2c2d935c52f74ecf416917ef2fd9fc53b.jpg>
-  
-
-  <header>
+ <container>
+ <h2>Hlasuj</h2>
+  <form>
+    <div class="form-group2">
+      <label for="exampleInputBeroun">Název města/obce</label>
+      <input type="město" class="form-control2" id="exampleInputměsto" aria-describedby="městoHelp">
+      <small id="městoHelp" class="form-text text-muted2"></small>
+    </div>
+    <button onclick="ahoj('váš formulř byl odeslán');">Odeslat<button class="btn btn-primary"></button>
     
-  </header>
+  </form>
+</container>
+
+
   <a name= "kontakty"/>
     <section class="kontakty">
     <div class="container">
